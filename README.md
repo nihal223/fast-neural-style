@@ -28,7 +28,7 @@ Train model
 python neural_style/neural_style.py train --dataset </path/to/train-dataset> --style-image </path/to/style/image> --vgg-model-dir </path/to/vgg/folder> --save-model-dir </path/to/save-model/folder> --epochs 2 --cuda 1
 ```
 
-There are several command line arguments, the important ones are listed below
+There are several command line arguments, the important ones are listed below:-
 * `--dataset`: path to training dataset, the path should point to a folder containing another folder with all the training images. I used COCO 2014 Training images dataset [80K/13GB] [(download)](http://mscoco.org/dataset/#download).
 * `--style-image`: path to style-image.
 * `--vgg-model-dir`: path to folder where the vgg model will be downloaded.
